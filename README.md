@@ -493,6 +493,8 @@
 
 ## Lecture 23: Javascript Behind scene
 
+![DOM](/src/images/js-execution.png)
+
 - Remember how the call stack works in javascript
 - Javascript Execution context:  it means, the javascript created by you, how it will run
 - Javascript has 2 execution context:
