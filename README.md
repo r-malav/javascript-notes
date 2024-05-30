@@ -809,7 +809,7 @@ document.getElementById('firstHeading').innerHTML = "<h1>Chai aur code<h1/>"
 ### How to add the content
 - We will be using textContent, innerHTML, innerText
 - **InnerContent vs InnerText:** InnerText will give the text which is visible, but InnerContent will give the text which is hidden as well.
-- innerHTML will give the complete value
+- innerHTML will give the complete value including any tags inside the target.(eg: <span> and its content inside <h1>)
 - In real time, we will be using other query selector, like querySelector, querySelectorAll etc
 **Example:**
   ```javascript
